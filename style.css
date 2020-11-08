@@ -1,0 +1,84 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a,h1,h3{
+font-family: 'Exo 2', sans-serif;
+}
+.Menu{
+background: white;
+border-right: 1px solid rgba(0,0,0,0.8);
+width: 250px;
+position: fixed;
+/*bottom: 0;
+right: 0;*/
+height: 100%;
+}
+a {
+display: block;
+border-radius: 10px;
+font-size: 20px;
+/*background: aqua;*/
+text-align: center;
+text-decoration: none;
+color: gray;
+line-height: 50px;
+border: 1px solid #cccccc;
+width: 90%;
+margin: auto;
+margin-bottom: 15px;
+transition: 0.4s;
+}
+nav a:hover{
+	background: #eeeeee;
+border: 1px solid #999999;
+}
+h1{ 
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+div:not(.Menu){
+	/*box-shadow: 0 0 5px black;*/
+	border-radius: 5px;
+	width: calc(100% - 250px);
+	margin-left:250px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+div:not(.Contacts) img{
+width: 250px;
+margin: auto;
+display: block;
+height: 200px;
+object-fit: cover;
+margin-top: 10px;
+margin-bottom:10px;
+}
+.Soc{
+ padding: 10px;
+height: 150px;	
+}
+
+h3	{
+	padding-left: 55px;
+	padding-top:15px;
+text-align: left;
+}
+.Contacts{
+	text-align: center;
+	margin-bottom: 300px;
+}
+p{
+text-align: left;
+padding: 20px 0; 
+}
+
+
+
+
+
